@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm libva-intel-driver libva-mesa-driver libva-nvidia-driver kirigami
+pacman -Syu --noconfirm libva-intel-driver libva-mesa-driver libva-nvidia-driver kirigami qt5-declarative qt5-quickcontrols2
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
